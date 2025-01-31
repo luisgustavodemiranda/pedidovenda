@@ -1,0 +1,2 @@
+/bin/*.exe
+/src/Win32/Debug/*.dcu

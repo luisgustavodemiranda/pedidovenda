@@ -27,8 +27,8 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
       Color = clWhite
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 40
-      ExplicitHeight = 630
+      ExplicitWidth = 856
+      ExplicitHeight = 669
       DesignSize = (
         860
         670)
@@ -39,7 +39,8 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
         Height = 670
         Align = alClient
         TabOrder = 2
-        ExplicitHeight = 630
+        ExplicitWidth = 856
+        ExplicitHeight = 669
         object Panel4: TPanel
           Left = 1
           Top = 1
@@ -50,7 +51,8 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
           Color = clWhite
           ParentBackground = False
           TabOrder = 0
-          ExplicitHeight = 628
+          ExplicitWidth = 854
+          ExplicitHeight = 667
           object Panel1: TPanel
             Left = 0
             Top = 0
@@ -61,6 +63,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
             Padding.Left = 10
             Padding.Right = 10
             TabOrder = 0
+            ExplicitWidth = 854
             object Panel13: TPanel
               Left = 10
               Top = 0
@@ -69,6 +72,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
               Align = alTop
               BevelOuter = bvNone
               TabOrder = 0
+              ExplicitWidth = 834
               object Panel23: TPanel
                 Left = 0
                 Top = 0
@@ -77,7 +81,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                 Align = alClient
                 BevelOuter = bvNone
                 TabOrder = 0
-                ExplicitWidth = 522
+                ExplicitWidth = 834
                 object Label2: TLabel
                   Left = 0
                   Top = 0
@@ -138,8 +142,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                     ParentFont = False
                     TabOrder = 0
                     Text = '00000'
-                    ExplicitTop = 12
-                    ExplicitHeight = 16
                   end
                 end
                 object pnlPesquisaPedido: TPanel
@@ -196,9 +198,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
               Align = alClient
               BevelOuter = bvNone
               TabOrder = 1
-              ExplicitLeft = 5
-              ExplicitTop = 67
-              ExplicitWidth = 674
+              ExplicitWidth = 834
               object Label13: TLabel
                 Left = 0
                 Top = 9
@@ -321,8 +321,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   ParentFont = False
                   TabOrder = 0
                   OnExit = edtCodigoProdutoExit
-                  ExplicitLeft = 13
-                  ExplicitTop = 12
                 end
               end
               object Panel12: TPanel
@@ -372,7 +370,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   ParentFont = False
                   ReadOnly = True
                   TabOrder = 0
-                  ExplicitWidth = 341
                 end
               end
               object Panel7: TPanel
@@ -418,7 +415,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   ParentFont = False
                   TabOrder = 0
                   OnExit = edtQuantidadeExit
-                  ExplicitWidth = 97
                 end
               end
               object Panel11: TPanel
@@ -466,7 +462,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   Font.Style = []
                   ParentFont = False
                   TabOrder = 0
-                  ExplicitWidth = 131
                 end
               end
               object Panel24: TPanel
@@ -514,8 +509,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   TabOrder = 0
                   OnChange = edtCodigoClienteChange
                   OnExit = edtCodigoClienteExit
-                  ExplicitLeft = 13
-                  ExplicitTop = 12
                 end
               end
               object Panel16: TPanel
@@ -565,7 +558,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   ParentFont = False
                   ReadOnly = True
                   TabOrder = 0
-                  ExplicitWidth = 97
                 end
               end
               object Panel25: TPanel
@@ -624,7 +616,8 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
             Padding.Right = 10
             Padding.Bottom = 10
             TabOrder = 1
-            ExplicitHeight = 361
+            ExplicitWidth = 854
+            ExplicitHeight = 400
             object gdProduto: TDBGrid
               Left = 10
               Top = 0
@@ -686,7 +679,8 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
             Padding.Left = 10
             Padding.Right = 10
             TabOrder = 2
-            ExplicitTop = 570
+            ExplicitTop = 609
+            ExplicitWidth = 854
             object Panel26: TPanel
               Left = 10
               Top = 0
@@ -792,6 +786,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
               Align = alClient
               BevelOuter = bvNone
               TabOrder = 1
+              ExplicitWidth = 434
               DesignSize = (
                 438
                 58)
@@ -820,6 +815,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                 Padding.Right = 5
                 Padding.Bottom = 5
                 TabOrder = 0
+                ExplicitLeft = 204
                 object Shape5: TShape
                   Left = 5
                   Top = 5
@@ -862,7 +858,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
         OpenedWidth = 200
         Placement = svpLeft
         TabOrder = 0
-        ExplicitHeight = 630
+        ExplicitHeight = 669
         object pnlMenu: TPanel
           Left = 0
           Top = 0
@@ -875,7 +871,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
           Padding.Right = 5
           Padding.Bottom = 5
           TabOrder = 0
-          ExplicitHeight = 630
+          ExplicitHeight = 669
           object Panel19: TPanel
             AlignWithMargins = True
             Left = 5
@@ -952,7 +948,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
             Color = 7381814
             ParentBackground = False
             TabOrder = 2
-            ExplicitTop = 584
+            ExplicitTop = 623
             object SpeedButton4: TSpeedButton
               Left = 0
               Top = 0
