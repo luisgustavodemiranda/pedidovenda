@@ -1,0 +1,4 @@
+/bin/*.exe
+/src/Win32/Debug/*.dcu
+/src/__history/*.~1~
+/src/view/__history/*.~1~
