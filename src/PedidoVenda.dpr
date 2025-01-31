@@ -2,6 +2,7 @@ program PedidoVenda;
 
 uses
   Vcl.Forms,
+  View.PedidoVendaTeste in 'view\View.PedidoVendaTeste.pas' {Form1},
   Model.ProdutoPedido in 'model\Model.ProdutoPedido.pas',
   Model.Pedido in 'model\Model.Pedido.pas',
   Model.Cliente in 'model\Model.Cliente.pas',

@@ -155,10 +155,14 @@ begin
       mtProdutoPedidovl_unitario.Value := StrToFloat(edtValorUnitario.Text);
       mtProdutoPedidoTotal_Item.Value := StrToFloat(edtValorUnitario.Text) *  StrToInt(edtQuantidade.Text);
       mtProdutoPedido.Post;
+
       FTotalPedido := FTotalPedido + mtProdutoPedidoTotal_Item.Value;
+
       lblValorTotal.Caption := formatfloat( '##,###,##0.00', FTotalPedido);
+
       edtCodigoProduto.SetFocus;
     end;
+
   finally
      LimpaCamposProduto;
   end;

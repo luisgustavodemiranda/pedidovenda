@@ -101,6 +101,10 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
+        <DCCReference Include="view\View.PedidoVendaTeste.pas">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <DCCReference Include="model\Model.ProdutoPedido.pas"/>
         <DCCReference Include="model\Model.Pedido.pas"/>
         <DCCReference Include="model\Model.Cliente.pas"/>
