@@ -1,6 +1,6 @@
 inherited FrmPedidoVenda: TFrmPedidoVenda
-  ClientHeight = 670
-  ClientWidth = 860
+  ClientHeight = 669
+  ClientWidth = 856
   Position = poDesktopCenter
   ExplicitWidth = 872
   ExplicitHeight = 708
@@ -8,15 +8,13 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
   object pnlback: TPanel
     Left = 0
     Top = 0
-    Width = 860
-    Height = 670
+    Width = 856
+    Height = 669
     Align = alClient
     BevelOuter = bvNone
     Color = clWhite
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 856
-    ExplicitHeight = 669
     object pnlContainer: TPanel
       Left = 0
       Top = 0
@@ -30,15 +28,16 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
       ExplicitTop = 40
       ExplicitHeight = 630
       DesignSize = (
-        860
-        670)
+        856
+        669)
       object pnlEmb: TPanel
         Left = 0
         Top = 0
-        Width = 860
-        Height = 670
+        Width = 856
+        Height = 669
         Align = alClient
         TabOrder = 2
+        ExplicitWidth = 860
         ExplicitHeight = 630
         object Panel4: TPanel
           Left = 1
@@ -81,7 +80,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                 object Label2: TLabel
                   Left = 0
                   Top = 0
-                  Width = 838
+                  Width = 115
                   Height = 21
                   Align = alTop
                   Caption = 'Pedido de Venda'
@@ -91,7 +90,6 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                   Font.Name = 'Segoe UI'
                   Font.Style = []
                   ParentFont = False
-                  ExplicitWidth = 115
                 end
                 object Panel14: TPanel
                   Left = 0
@@ -793,7 +791,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
               BevelOuter = bvNone
               TabOrder = 1
               DesignSize = (
-                438
+                434
                 58)
               object Label8: TLabel
                 Left = 22
@@ -809,7 +807,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                 ParentFont = False
               end
               object Panel27: TPanel
-                Left = 208
+                Left = 204
                 Top = -5
                 Width = 233
                 Height = 61
@@ -820,6 +818,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
                 Padding.Right = 5
                 Padding.Bottom = 5
                 TabOrder = 0
+                ExplicitLeft = 208
                 object Shape5: TShape
                   Left = 5
                   Top = 5
@@ -855,7 +854,7 @@ inherited FrmPedidoVenda: TFrmPedidoVenda
         Left = 0
         Top = 0
         Width = 0
-        Height = 670
+        Height = 669
         Color = clWhite
         DisplayMode = svmOverlay
         Opened = False
